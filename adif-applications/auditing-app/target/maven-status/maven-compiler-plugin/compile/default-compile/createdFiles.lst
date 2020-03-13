@@ -1,0 +1,6 @@
+auditing\controller\UsersController.class
+auditing\service\UsersServiceImpl.class
+auditing\repository\UsersRepository.class
+auditing\AuditingApplications.class
+auditing\service\UsersService.class
+auditing\model\Users.class
