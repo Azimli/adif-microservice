@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68becff5-57ac-48c1-82aa-0887a8d14d79" name="Default Changelist" comment="" />
+    <list default="true" id="68becff5-57ac-48c1-82aa-0887a8d14d79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auditing-app/auditingapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/auditingapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auditing-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/model/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/repository/UsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/service/AuthenticationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/service/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auditing-app/target/classes/auditing/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/target/classes/auditing/controller/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auditing-app/target/classes/auditing/model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/target/classes/auditing/model/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auditing-app/target/classes/auditing/repository/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/target/classes/auditing/repository/UsersRepository.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,24 +42,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="Auditing" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Auditing" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Auditing" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="auditing: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Auditing" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="auditing: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="auditlogin: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -54,13 +49,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\Is\GitHub\adif-microservice\adif-applications\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -70,8 +72,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Z3s3vLrCebNuwHDc0vfRPSIc06" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;oracle" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -83,7 +86,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/auditing-app/src/main/java/auditing/sql" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -94,6 +97,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Is\GitHub\adif-microservice\adif-applications\auditing-app\src\main\java\auditing\sql" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -131,7 +137,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3d5af32b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e92df7d4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e92df7d4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4818ca76" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e92df7d4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1be5988b" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -152,10 +168,27 @@
       <workItem from="1584078919094" duration="12921000" />
       <workItem from="1584096104366" duration="2584000" />
       <workItem from="1584100131654" duration="5900000" />
+      <workItem from="1584122453239" duration="2618000" />
+      <workItem from="1584177703518" duration="901000" />
+      <workItem from="1584207540367" duration="7943000" />
+      <workItem from="1584215503796" duration="311000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

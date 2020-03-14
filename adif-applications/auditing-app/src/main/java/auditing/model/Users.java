@@ -1,5 +1,6 @@
 package auditing.model;
 
+
 import javax.persistence.*;
 
 @Entity
@@ -18,8 +19,7 @@ public class Users {
     public Users() {
     }
 
-    public Users(Long id, String name, String lastname, String username, String email, String password, char status) {
-        this.id = id;
+    public Users(String name, String lastname, String username, String email, String password, char status) {
         this.name = name;
         this.lastname = lastname;
         this.username = username;
@@ -85,20 +85,10 @@ public class Users {
     }
 
     @Override
-    public String toString() {
-        return "Users{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", lastname='" + lastname + '\'' +
-                ", username='" + username + '\'' +
-                ", email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                ", status=" + status +
-                '}';
-    }
-
-    @Override
     public boolean equals(Object obj) {
         return super.equals (obj);
     }
+
+
+
 }
