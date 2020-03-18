@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68becff5-57ac-48c1-82aa-0887a8d14d79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auditing-app/auditingapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/auditingapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auditing-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/model/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/repository/UsersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/service/AuthenticationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auditing-app/src/main/java/auditing/service/UserDetailsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auditing-app/target/classes/auditing/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/target/classes/auditing/controller/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auditing-app/target/classes/auditing/model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/target/classes/auditing/model/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auditing-app/target/classes/auditing/repository/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/auditing-app/target/classes/auditing/repository/UsersRepository.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +76,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/auditing-app/src/main/java/auditing/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -172,6 +162,7 @@
       <workItem from="1584177703518" duration="901000" />
       <workItem from="1584207540367" duration="7943000" />
       <workItem from="1584215503796" duration="311000" />
+      <workItem from="1584543214118" duration="253000" />
     </task>
     <servers />
   </component>
