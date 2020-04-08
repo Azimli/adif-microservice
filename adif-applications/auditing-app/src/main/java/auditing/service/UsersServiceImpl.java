@@ -3,6 +3,8 @@ package auditing.service;
 import auditing.model.Users;
 import auditing.repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
@@ -55,5 +57,15 @@ public class UsersServiceImpl implements UsersService {
        }else {
            System.out.println (" No users with id: " + id);
        }
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
+
+        Users user = usersRepository.findByUsername(s)
+                .orElseThrow(() -> new UsernameNotFoundException("Invalid username"));
+
+        return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(),
+                user.getAuthorities());
     }
 }

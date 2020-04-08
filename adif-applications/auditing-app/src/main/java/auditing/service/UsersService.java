@@ -1,10 +1,11 @@
 package auditing.service;
 
 import auditing.model.Users;
+import org.springframework.security.core.userdetails.UserDetailsService;
 
 import java.util.List;
 
-public interface UsersService {
+public interface UsersService extends UserDetailsService {
 
     List listUsers();
 

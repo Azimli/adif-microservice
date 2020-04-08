@@ -1,11 +1,19 @@
 package auditing.model;
 
 
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 @Entity
 @Table(name = "auditlogin")
-public class Users {
+public class Users implements UserDetails {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -15,6 +23,10 @@ public class Users {
     private String email;
     private String password;
     private char status;
+
+    @OneToOne
+    @JoinColumn(name = "role_id")
+    private Role role;
 
     public Users() {
     }
@@ -89,6 +101,34 @@ public class Users {
         return super.equals (obj);
     }
 
+    // security esasli funksiyalar
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        List<GrantedAuthority> roles = new ArrayList<>();
+        GrantedAuthority authority = new SimpleGrantedAuthority("ROLE_" + role.getName());
+        roles.add(authority);
+        return roles;
+    }
 
+
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return true;
+    }
 
 }
